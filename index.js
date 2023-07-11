@@ -225,7 +225,7 @@ function degradeCubes(centerY, centerX) {
 
   let count = 0;
   let weight = 0.1;
-  let diffusion = 0.0003  ;
+  let diffusion = 0.0005  ;
 
   for (let y = -1; y <= 1; y++) {
     for (let x = -1; x <= 1; x++) {
